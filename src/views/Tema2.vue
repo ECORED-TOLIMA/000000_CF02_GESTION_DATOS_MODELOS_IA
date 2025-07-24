@@ -9,7 +9,7 @@
     
     .row.justify-content-center.mb-4(data-aos="flip-up")
       .col-lg-8.order-lg-1.order-2(data-aos="fade-right")
-        p Una vez que se han depurado los datos, asegurando su calidad y consistencia, se enfrenta a un nuevo desafío, sutil, pero de gran impacto: la complejidad. En la era del Big Data, es común trabajar con conjuntos de datos que no solo contienen millones de registros (filas), sino también cientos o miles de características (columnas o dimensiones). Aunque podría parecer que "más datos es siempre mejor", un exceso de dimensiones puede ser perjudicial. Este fenómeno, conocido como la "maldición de la dimensionalidad", puede degradar el rendimiento del modelo, aumentar la complejidad computacional y oscurecer los patrones verdaderamente significativos.
+        p Una vez que se han depurado los datos, asegurando su calidad y consistencia, se enfrenta a un nuevo desafío, sutil, pero de gran impacto: la complejidad. En la era del #[em Big Data], es común trabajar con conjuntos de datos que no solo contienen millones de registros (filas), sino también cientos o miles de características (columnas o dimensiones). Aunque podría parecer que "más datos es siempre mejor", un exceso de dimensiones puede ser perjudicial. Este fenómeno, conocido como la "maldición de la dimensionalidad", puede degradar el rendimiento del modelo, aumentar la complejidad computacional y oscurecer los patrones verdaderamente significativos.
         .tarjeta.BG00.p-4.mb-4
           .row.justify-content-center.align-items-center
             .col-lg-2.col-4.mb-lg-0.mb-4
@@ -121,7 +121,7 @@
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 2.2 Técnicas
 
-    p.mb-3(data-aos="flip-left") Las técnicas para reducir la dimensionalidad se dividen en dos grandes familias, cada una con su propia filosofía y aplicabilidad
+    p.mb-3(data-aos="flip-left") Las técnicas para reducir la dimensionalidad se dividen en dos grandes familias, cada una con su propia filosofía y aplicabilidad.
 
     .row.mb-4.ms-0.mt-4
       .col-auto.bg-c2(data-aos="fade-left")
@@ -246,7 +246,7 @@
             AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--C02")
               .row(titulo="El análisis de componentes principales (PCA)")
                 .col-12.mb-0.mb-md-0
-                  p.mb-0 Es una de las más empleadas que proyecta los datos en las direcciones de máxima varianza. PCA genera nuevas variables denominadas componentes principales, las cuales son combinaciones lineales de las variables originales. Estos componentes se ordenan, de acuerdo con la cantidad de varianza que explican, lo que permite reducir la dimensionalidad al seleccionar únicamente los componentes más significativos. Con PCA se busca la proyección que mejor representa los datos en términos de mínimos cuadrados. Es particularmente eficaz para la visualización y exploración de conjuntos de datos de alta dimensión, ya que permite identificar fácilmente tendencias, patrones o valores atípicos. Además, reduce la complejidad del modelo y minimiza problemas como la multicolinealidad y el sobreajuste.|
+                  p.mb-0 Es una de las más empleadas que proyecta los datos en las direcciones de máxima varianza. PCA genera nuevas variables denominadas componentes principales, las cuales son combinaciones lineales de las variables originales. Estos componentes se ordenan, de acuerdo con la cantidad de varianza que explican, lo que permite reducir la dimensionalidad al seleccionar únicamente los componentes más significativos. Con PCA se busca la proyección que mejor representa los datos en términos de mínimos cuadrados. Es particularmente eficaz para la visualización y exploración de conjuntos de datos de alta dimensión, ya que permite identificar fácilmente tendencias, patrones o valores atípicos. Además, reduce la complejidad del modelo y minimiza problemas como la multicolinealidad y el sobreajuste.
 
               .row(titulo="El análisis discriminante lineal (LDA)")
                 .col-12.mb-0.mb-md-0

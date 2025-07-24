@@ -12,7 +12,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-01.png')})`}" data-aos="fade-left"
       )
       .bloque-texto-g__texto.p-4(data-aos="fade-right")
-        p.mb-0 El campo del análisis de datos y el aprendizaje automático está experimentado un crecimiento exponencial, lo que les ha permitido consolidarse como elementos esenciales para la toma de decisiones, basadas en datos. La transformación de datos en bruto en información relevante, implica un proceso que incluye la limpieza de datos, la reducción de dimensionalidad, la implementación de algoritmos y la evaluación de los modelos generados.i
+        p.mb-0 El campo del análisis de datos y el aprendizaje automático está experimentado un crecimiento exponencial, lo que les ha permitido consolidarse como elementos esenciales para la toma de decisiones, basadas en datos. La transformación de datos en bruto en información relevante, implica un proceso que incluye la limpieza de datos, la reducción de dimensionalidad, la implementación de algoritmos y la evaluación de los modelos generados.
     
     .row.justify-content-center.mb-0(data-aos="fade-left")
       .col-lg-10

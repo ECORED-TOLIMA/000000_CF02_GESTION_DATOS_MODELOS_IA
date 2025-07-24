@@ -22,26 +22,25 @@
     p.mb-4 Para evitar este sesgo, los datos se dividen típicamente en tres conjuntos:  
 
     .row.justify-content-center.mb-4(data-aos="fade-left")
-      .col-lg-12.col-12
-        .row.justify-content-center
-          .col-lg-6.col-12.mb-md-0.order-lg-1.order-2.mb-lg-0
-            .tarjeta.tarjeta--BGC01.p-3.mb-0(style="background-color:#FFEBF1")
-              .row.justify-content-center.align-items-center.mb-2
-                ul.lista-ul--color
-                  li(data-aos="flip-up") 
-                    i.fas.fa-robot(style="color:#523DBF")
-                    p.mb-0 #[b Entrenamiento] 
-                    p.mb-0 Se utiliza para enseñar al modelo.
-                  li(data-aos="flip-up") 
-                    i.fas.fa-robot(style="color:#523DBF")
-                    | #[b Validación] Útil para ajustar hiperparámetros y seleccionar el mejor modelo.
-                  li(data-aos="flip-up") 
-                    i.fas.fa-robot(style="color:#523DBF")
-                    | #[b Prueba] Se utiliza para la evaluación final. 
+      .col-xl-10
+        .row.align-items-center.m-0.style___box_14(data-aos="zoom-in")
+          .col-xl
+            <ul class="fa-ul estilo___ul mb-0">
+              <li class="mb-2"><span class="fa-li"><i class="fas fa-robot"></i></span>#[b Entrenamiento]</li>
+            </ul>
+            p.mb-2 Se utiliza para enseñar al modelo. 
+            <ul class="fa-ul estilo___ul mb-0">
+              <li class="mb-2"><span class="fa-li"><i class="fas fa-robot"></i></span>#[b Validación]</li>
+            </ul>
+            p.mb-2 Útil para ajustar hiperparámetros y seleccionar el mejor modelo.
+            <ul class="fa-ul estilo___ul mb-0">
+              <li class="mb-2"><span class="fa-li"><i class="fas fa-robot"></i></span>#[b Prueba]</li>
+            </ul>
+            p.mb-2 Se utiliza para la evaluación final.  
 
-          .col-lg-4.col-6.col-md-6.col-8.order-lg-2.order-1.mb-lg-0.mb-3
-            figure
-              img(src='@/assets/curso/temas/tema4/img-02.png', alt='Imagen decorativa')
+          .col-xl-auto
+            figure.d-none.d-xl-block
+              img(src='@/assets/curso/temas/tema4/img-02.png', alt='' style="max-width: 500px").m-auto
     
     .row.justify-content-center.mb-0(data-aos="fade-left")
       .col-lg-10.col-12
@@ -93,15 +92,15 @@
     .row.justify-content-center.mb-5
       .col-lg-7.order-lg-1.order-2(data-aos="fade-right")
         LineaTiempoD.color-acento-botones.especial
-          p.mb-0(numero="1" titulo="Exactitud (Accuracy)") La métrica más intuitiva. Representa la proporción de predicciones correctas. Aunque es fácil de entender, puede ser muy engañosa en conjuntos de datos desbalanceados. Por ejemplo, si el 99 % de las transacciones no son fraudulentas, un modelo que siempre predice "no fraude" tendrá un 99 % de exactitud, pero será completamente inútil para detectar el fraude.
+          p.mb-0(numero="1" titulo="Exactitud <em>(Accuracy)</em>") La métrica más intuitiva. Representa la proporción de predicciones correctas. Aunque es fácil de entender, puede ser muy engañosa en conjuntos de datos desbalanceados. Por ejemplo, si el 99 % de las transacciones no son fraudulentas, un modelo que siempre predice "no fraude" tendrá un 99 % de exactitud, pero será completamente inútil para detectar el fraude.
 
-          p.mb-0(numero="2" titulo="Precisión (Precision)") De todas las veces que el modelo predijo "Positivo", ¿cuántas acertó? Es crucial cuando el costo de un Falso Positivo es alto.
+          p.mb-0(numero="2" titulo="Precisión <em>(Precision)</em>") De todas las veces que el modelo predijo "Positivo", ¿cuántas acertó? Es crucial cuando el costo de un Falso Positivo es alto.
 
-          p.mb-0(numero="3" titulo="Sensibilidad (Recall o Exhaustividad)") De todos los casos que eran realmente "Positivos", ¿cuántos fue capaz de identificar el modelo? Es la métrica más importante cuando el costo de un Falso Negativo es alto (como en el diagnóstico médico).
+          p.mb-0(numero="3" titulo="Sensibilidad <em>(Recall o Exhaustividad)</em>") De todos los casos que eran realmente "Positivos", ¿cuántos fue capaz de identificar el modelo? Es la métrica más importante cuando el costo de un Falso Negativo es alto (como en el diagnóstico médico).
 
-          p.mb-0(numero="4" titulo="Puntuación F1 (F1-Score)") Es la media armónica de la Precisión y la Sensibilidad. Proporciona una única métrica que equilibra ambas, y es especialmente útil cuando se tienen clases desbalanceadas.
+          p.mb-0(numero="4" titulo="Puntuación F1 (F1-<em>Score</em>)") Es la media armónica de la Precisión y la Sensibilidad. Proporciona una única métrica que equilibra ambas, y es especialmente útil cuando se tienen clases desbalanceadas.
 
-          p.mb-0(numero="5" titulo="Curva ROC y AUC") Es un gráfico que muestra el rendimiento de un clasificador, a través de todos los umbrales de clasificación. Grafica la Tasa de Verdaderos Positivos (Recall) frente a la Tasa de Falsos Positivos (FP/(FP+TN)). Un modelo perfecto se ubicaría en la esquina superior izquierda (100 % de sensibilidad, 0 % de falsos positivos). Se puede decir que es una métrica agregada que representa la capacidad general del modelo para discriminar entre las clases. Un AUC de 1.0 es un clasificador perfecto, mientras que un AUC de 0.5 representa un modelo que no es mejor que una elección al azar (Fawcett, 2006).
+          p.mb-0(numero="5" titulo="Curva ROC y AUC") Es un gráfico que muestra el rendimiento de un clasificador, a través de todos los umbrales de clasificación. Grafica la Tasa de Verdaderos Positivos #[em (Recall)] frente a la Tasa de Falsos Positivos (FP/(FP+TN)). Un modelo perfecto se ubicaría en la esquina superior izquierda (100 % de sensibilidad, 0 % de falsos positivos). Se puede decir que es una métrica agregada que representa la capacidad general del modelo para discriminar entre las clases. Un AUC de 1.0 es un clasificador perfecto, mientras que un AUC de 0.5 representa un modelo que no es mejor que una elección al azar (Fawcett, 2006).
 
       .col-lg-3.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         figure
@@ -115,7 +114,7 @@
               figure
                 img(src='@/assets/curso/temas/tema1/icono-01.svg', alt='', style='width: 60px').m-auto
             .col-md
-              p.mb-0 #[b Ejemplo de interpretación:] en un modelo de detección de fraude, una precisión alta pero un recall bajo indicaría que, aunque la mayoría de las transacciones marcadas como fraude son realmente fraudulentas, el modelo está pasando por alto muchos casos de fraude reales (Chawla, Bowyer, Kegelmeyer, 2002).
+              p.mb-0 #[b Ejemplo de interpretación:] en un modelo de detección de fraude, una precisión alta pero un #[em recall] bajo indicaría que, aunque la mayoría de las transacciones marcadas como fraude son realmente fraudulentas, el modelo está pasando por alto muchos casos de fraude reales (Chawla, Bowyer, Kegelmeyer, 2002).
 
     Separador
 
@@ -127,13 +126,13 @@
     .row.justify-content-center.mb-5(data-aos="flip-up")
       .col-lg-9.col-12.mb-md-0.order-lg-2.order-1
         AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--C02")
-          .row(titulo="Error Absoluto Medio (MAE - Mean Absolute Error)")
+          .row(titulo="Error Absoluto Medio (MAE - <em>Mean Absolute Error</em>)")
             .col-12.mb-0.mb-md-0
               p Divide el conjunto de datos en k grupos según la cercanía de los puntos a los centroides, los cuales se ajustan iterativamente. Es eficiente y fácil de implementar, aunque sensible a la selección de k y a los valores atípicos.
-          .row(titulo="Error Cuadrático Medio (MSE - Mean Squared Error)")
+          .row(titulo="Error Cuadrático Medio (MSE - <em>Mean Squared Error</em>)")
             .col-12.mb-0.mb-md-0
               p.mb-0 Se define como el promedio de los errores elevados al cuadrado. Al elevar el error al cuadrado, se penalizan de manera más significativa los errores grandes en comparación con los pequeños. Es de las más utilizadas; sin embargo, su resultado se expresa en unidades al cuadrado (por ejemplo, "dólares al cuadrado"), lo que complica su interpretación directa.
-          .row(titulo="Raíz del Error Cuadrático Medio (RMSE - Root Mean Squared Error)")
+          .row(titulo="Raíz del Error Cuadrático Medio (RMSE - <em>Root Mean Squared Error)</em>")
             .col-12.mb-0.mb-md-0
               p.mb-3 Se define como la raíz cuadrada del MSE. Aborda el problema de interpretabilidad del MSE, dado que sus unidades coinciden con las de la variable objetivo, al tiempo que conserva la característica de penalizar de manera más severa los errores de mayor magnitud.
           .row(titulo="Coeficiente de Determinación (R²)")

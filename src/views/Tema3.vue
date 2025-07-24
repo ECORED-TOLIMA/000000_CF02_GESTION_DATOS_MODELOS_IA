@@ -99,15 +99,14 @@
 
     p.mb-4(data-aos="fade-left") Utiliza datos etiquetados para entrenar modelos que pueden realizar predicciones sobre nuevos datos. Incluye algoritmos de clasificación como Support Vector Machines, Random Forest, Gradient Boosting y redes neuronales, así como algoritmos de regresión como regresión lineal, regresión polinomial y regresión logística.
 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="flip-up")
-      .col-lg-10.col-12
-        .row.justify-content-center.align-items-center.tarjeta.tarjeta--BG08(style="background-color:#DCD8F2")
-          .col-lg-9.col-12.mb-md-0.order-lg-2.order-2.mb-lg-0.mb-3.px-4
-            .row.justify-content-center
-              p Este tipo de técnica es quizás el paradigma más ampliamente difundido y estudiado. En este enfoque, el algoritmo aprende a partir de un conjunto de datos de entrenamiento que ha sido "etiquetado" por un experto humano. Cada punto de datos de entrada, conocido como vector de características (X), tiene una etiqueta o resultado de salida correspondiente (y). El objetivo del algoritmo es aprender una función de mapeo “f” tal que y=f(X). Durante el proceso de entrenamiento, el modelo realiza predicciones y las compara con la etiqueta correcta, ajustando sus parámetros internos para minimizar el error.
-          .col-lg-3.col-6.col-md-6.col-8.order-lg-1.order-1.mb-lg-0.mb-3.px-0
-            figure
-              img(src='@/assets/curso/temas/tema3/img-05.png', alt='Imagen decorativa')
+    .row.justify-content-center.m-0(data-aos="zoom-in").espacio___movil_1.mb-4
+      .col-xl-10
+        .row.align-items-center.m-0.style___box_3
+          .col-xl-auto
+            figure.d-none.d-xl-block
+              img(src='@/assets/curso/temas/tema3/img-05.png', alt='' style="max-width: 400px").m-auto
+          .col-xl
+            p.mb-0 Este tipo de técnica es quizás el paradigma más ampliamente difundido y estudiado. En este enfoque, el algoritmo aprende a partir de un conjunto de datos de entrenamiento que ha sido "etiquetado" por un experto humano. Cada punto de datos de entrada, conocido como vector de características (X), tiene una etiqueta o resultado de salida correspondiente (y). El objetivo del algoritmo es aprender una función de mapeo “f” tal que y=f(X). Durante el proceso de entrenamiento, el modelo realiza predicciones y las compara con la etiqueta correcta, ajustando sus parámetros internos para minimizar el error.
 
     p.mb-4(data-aos="fade-left") Los algoritmos que suelen utilizarse en esta técnica son de dos tipos:
 
@@ -283,7 +282,7 @@
                   figure
                     img(src='@/assets/curso/temas/tema3/icono-12.svg', alt='Imagen decorativa')
                 .col-lg-10.col-12
-                  p.mb-0 #[b Ensemble methods]
+                  p.mb-0 #[b Ensemble #[em methods]]
                   p Combinan múltiples modelos para mejorar el rendimiento. 
 
               .row.justify-content-center.align-items-center.mb-2
@@ -291,7 +290,7 @@
                   figure
                     img(src='@/assets/curso/temas/tema3/icono-13.svg', alt='Imagen decorativa')
                 .col-lg-10.col-12
-                  p.mb-0 Técnicas de #[bdeep learning]
+                  p.mb-0 #[b Técnicas de deep #[em learning]]
                   p Utilizadas para problemas complejos con grandes volúmenes de datos. 
 
               .row.justify-content-center.align-items-center.mb-2
@@ -299,7 +298,7 @@
                   figure
                     img(src='@/assets/curso/temas/tema3/icono-14.svg', alt='Imagen decorativa')
                 .col-lg-10.col-12
-                  p.mb-0 Métodos de  #[b transfer learning]
+                  p.mb-0 #[b Métodos de transfer #[em learning]]
                   p Aprovechan conocimiento de dominios relacionados. 
 
           .col-lg-4.col-6.col-md-6.col-8.order-lg-2.order-1.mb-lg-0.mb-3

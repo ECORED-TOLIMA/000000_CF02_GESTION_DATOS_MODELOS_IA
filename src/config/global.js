@@ -145,7 +145,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/CFA_XX_DU.pdf',
+        download: 'downloads/CFA_02_21710120_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -163,23 +163,23 @@ export default {
     {
       tema: '1. Limpieza de datos',
       referencia:
-        'Ecosistema de Recursos Educativos SENA. (2023). Proceso de normalización de datos [Video]. YouTube.',
+        'Ecosistema de Recursos Educativos SENA. (2022, 26 de diciembre). Proceso de normalización de datos [Video]. YouTube. https://www.youtube.com/watch?v=hKwuc-JJisI',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=hKwuc-JJisI',
     },
     {
       tema: '2. Reducción de dimensionalidad',
       referencia:
-        'Ecosistema de Recursos Educativos SENA. (2023). Etapas del procesamiento de datos y métodos estadísticos Introducción [Video]. YouTube.',
+        'Ecosistema de Recursos Educativos SENA. (2023, 25 de marzo). Etapas del procesamiento de datos y métodos estadísticos Introducción [Video]. YouTube. https://www.youtube.com/watch?v=ndzj15PQEVw',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=ndzj15PQEVw',
     },
     {
       tema: '3. Aprendizaje automático',
       referencia:
-        'Ecosistema de Recursos Educativos SENA. (2025). Preparación y modelado de datos para algoritmos de machine learnig [Video]. YouTube.',
+        'Ecosistema de Recursos Educativos SENA. (2025, 23 de mayo). Preparación y modelado de datos para algoritmos de machine learnig [Video]. YouTube. https://www.youtube.com/watch?v=cDIla4TZWoU',
       tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=cDIla4TZWoU ',
+      link: 'https://www.youtube.com/watch?v=cDIla4TZWoU',
     },
   ],
   glosario: [
@@ -221,7 +221,7 @@ export default {
     },
     {
       referencia:
-        'Agrawal, R., Imieliński, T. & Swami, A. (1993, June). Mining association rules between sets of items in large databases. In Proceedings of the 1993 ACM SIGMOD international conference on Management of data (pp. 207-216).',
+        'Agrawal, R., Imieliński, T. & Swami, A. (1993, June). Mining association rules between sets of items in large databases. In Proceedings of the 1993 ACM SIGMOD international conference on Management of data, 1, 207-216.',
     },
     {
       referencia:
@@ -245,7 +245,7 @@ export default {
     },
     {
       referencia:
-        'Jolliffe, I. T. (2002). Principal component analysis for special types of data (pp. 338-372). Springer New York.',
+        'Jolliffe, I. T. (2002). Principal component analysis for special types of data. En A. Editor (Ed.). Principal Component Analysis (pp. 338-372). Springer New York.',
     },
     {
       referencia:
