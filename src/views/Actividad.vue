@@ -16,7 +16,7 @@ export default {
       tema: 'Gestión de datos',
       titulo: 'Cuestionario',
       introduccion:
-        'Evaluar y reforzar el conocimiento adquirido sobre las técnicas para corrección de errores de los conjuntos de datos, antes de ser utilizados para el entrenamiento de modelos de aprendizaje automático.',
+        '<b>Objetivo:</b> evaluar y reforzar el conocimiento adquirido sobre las técnicas para corrección de errores de los conjuntos de datos, antes de ser utilizados para el entrenamiento de modelos de aprendizaje automático.',
       barajarPreguntas: true,
       preguntas: [
         {
@@ -52,7 +52,7 @@ export default {
         {
           id: 3,
           texto:
-            'El Análisis de Componentes Principales (PCA), es una técnica de reducción de dimensionalidad que preserva la máxima varianza en los datos',
+            'El Análisis de Componentes Principales (PCA), es una técnica de reducción de dimensionalidad que preserva la máxima varianza en los datos.',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
@@ -97,7 +97,7 @@ export default {
         {
           id: 6,
           texto:
-            'El algoritmo <em>Random Forest</em>, es menos efectivo que un árbol de decisión individual, porque combina múltiples modelos débiles',
+            'El algoritmo <em>Random Forest</em>, es menos efectivo que un árbol de decisión individual, porque combina múltiples modelos débiles.',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [

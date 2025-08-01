@@ -57,7 +57,7 @@
           img(src='@/assets/curso/temas/tema1/img-04.png', alt='')
 
         p(data-aos="fade-left") Asimismo, la limpieza de datos requiere una combinación de habilidades técnicas y conocimiento del dominio para identificar y corregir anomalías. Este proceso puede implicar la detección y eliminación de valores atípicos, el manejo de valores faltantes y la estandarización de formatos. Así como un chef experto, sabe cómo seleccionar y preparar los mejores ingredientes, un científico de datos competente debe ser capaz de refinar y optimizar los datos para obtener los mejores resultados en sus análisis y modelos.
-        p.mb-0(data-aos="fade-right") El no darle toda la importancia y atención necesaria en esta etapa, puede verse reflejada en un rendimiento poco óptimo del modelo, independientemente de lo avanzado que sea el algoritmo utilizado.
+        p.mb-0(data-aos="fade-right") El no darle toda la importancia y atención necesaria en esta etapa, puede verse reflejado en un rendimiento poco óptimo del modelo, independientemente de lo avanzado que sea el algoritmo utilizado.
 
     Separador
 
@@ -66,19 +66,19 @@
 
     .row.justify-content-center.mb-0(data-aos="flip-up")
       .col-lg-8.col-12.mb-md-0.order-lg-2.order-2
-        p Los conjuntos de datos a menudo contienen diversos tipos de errores que deben ser identificados y corregidos durante el proceso de limpieza. Estos errores pueden clasificarse en varias categorías:
+        p(style="color:#000") Los conjuntos de datos a menudo contienen diversos tipos de errores que deben ser identificados y corregidos durante el proceso de limpieza. Estos errores pueden clasificarse en varias categorías:
         LineaTiempoD.color-acento-botones.especial
-          p(numero="1" titulo="Datos faltantes") Valores ausentes en registros debido a problemas de captura o transmisión, que pueden introducir sesgos si no se manejan adecuadamente (Little & Rubin, 2019). Estos valores suelen representarse como #[em NULL, N/A, NaN (Not a Number)] o simplemente mediante una celda vacía. Las causas de estas representaciones son diversas: un usuario que se niega a proporcionar su edad, un sensor que experimenta un fallo temporal o un error en el proceso de extracción de datos.
+          p(style="color:#000")(numero="1" titulo="Datos faltantes") Valores ausentes en registros debido a problemas de captura o transmisión, que pueden introducir sesgos si no se manejan adecuadamente (Little & Rubin, 2019). Estos valores suelen representarse como #[em NULL, N/A, NaN (Not a Number)] o simplemente mediante una celda vacía. Las causas de estas representaciones son diversas: un usuario que se niega a proporcionar su edad, un sensor que experimenta un fallo temporal o un error en el proceso de extracción de datos.
 
-          p(numero="2" titulo="Datos duplicados") Registros repetidos que distorsionan las estadísticas y pueden sesgar los resultados de modelos predictivos (Rahm & Do, 2000). Ocurren cuando un mismo registro o entidad aparece más de una vez en el conjunto de datos. Esto puede suceder al combinar datos de diferentes fuentes o por errores en la recolección. Pueden sesgar gravemente los análisis y el entrenamiento, dando un peso indebido a las observaciones repetidas.
+          p(style="color:#000")(numero="2" titulo="Datos duplicados") Registros repetidos que distorsionan las estadísticas y pueden sesgar los resultados de modelos predictivos (Rahm & Do, 2000). Ocurren cuando un mismo registro o entidad aparece más de una vez en el conjunto de datos. Esto puede suceder al combinar datos de diferentes fuentes o por errores en la recolección. Pueden sesgar gravemente los análisis y el entrenamiento, dando un peso indebido a las observaciones repetidas.
 
-          p(numero="3" titulo="Datos incorrectos o inválidos") Este término se refiere a valores que, aunque presentes, son evidentemente erróneos. Esto incluye errores tipográficos (por ejemplo, "Colobia" en lugar de "Colombia"), valores que se encuentran fuera de un rango plausible (como una edad de 350 años) o datos que no cumplen con un formato estándar (como un correo electrónico sin el símbolo "@").
+          p(style="color:#000")(numero="3" titulo="Datos incorrectos o inválidos") Este término se refiere a valores que, aunque presentes, son evidentemente erróneos. Esto incluye errores tipográficos (por ejemplo, "Colobia" en lugar de "Colombia"), valores que se encuentran fuera de un rango plausible (como una edad de 350 años) o datos que no cumplen con un formato estándar (como un correo electrónico sin el símbolo "@").
 
-          p(numero="4" titulo="Inconsistencias estructurales y de formato") Este tipo de error se relaciona con la falta de uniformidad. (Aggarwal, 2017). Por ejemplo, en una columna de "país", se podría encontrar "Colombia", "COL" y "Co.", refiriéndose todos a la misma nación. Del mismo modo, las fechas pueden estar en formatos dispares (DD/MM/AAAA, YYYY-MM-DD, Mon, Day, Year) o las unidades de medida pueden estar mezcladas (kilogramos y libras en la misma columna). 
+          p(style="color:#000")(numero="4" titulo="Inconsistencias estructurales y de formato") Este tipo de error se relaciona con la falta de uniformidad. (Aggarwal, 2017). Por ejemplo, en una columna de "país", se podría encontrar "Colombia", "COL" y "Co.", refiriéndose todos a la misma nación. Del mismo modo, las fechas pueden estar en formatos dispares (DD/MM/AAAA, YYYY-MM-DD, #[em Mon, Day, Year]) o las unidades de medida pueden estar mezcladas (kilogramos y libras en la misma columna). 
 
-          p(numero="5" titulo="Datos sesgados") Se caracterizan por una alta varianza o una distribución no representativa, lo que puede llevar al desarrollo de modelos que favorecen ciertos resultados sobre otros. El sesgo presente en los datos puede perpetuarse en los modelos y afectar la equidad de las decisiones.
+          p(style="color:#000")(numero="5" titulo="Datos sesgados") Se caracterizan por una alta varianza o una distribución no representativa, lo que puede llevar al desarrollo de modelos que favorecen ciertos resultados sobre otros. El sesgo presente en los datos puede perpetuarse en los modelos y afectar la equidad de las decisiones.
 
-          p(numero="6" titulo="Datos irrelevantes") Se refiere a la información que no contribuye de manera significativa al análisis o que puede desviar la atención del objetivo principal. La identificación y eliminación de estos datos, puede mejorar la eficiencia y precisión de los modelos.
+          p(style="color:#000")(numero="6" titulo="Datos irrelevantes") Se refiere a la información que no contribuye de manera significativa al análisis o que puede desviar la atención del objetivo principal. La identificación y eliminación de estos datos, puede mejorar la eficiencia y precisión de los modelos.
       
       .col-lg-4.col-md-6.col-8.order-lg-1.order-1.mb-lg-0.mb-4
         figure
@@ -89,8 +89,8 @@
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 1.3 Técnicas
     
-    p Una vez se han identificado los tipos de errores, se aplican técnicas específicas para subsanarlos. La elección de la técnica adecuada es un acto de equilibrio que depende del contexto del problema, el tipo y la cantidad de datos sucios, así como el impacto potencial en el modelo final. Para abordar los diversos tipos de errores mencionados, existen varias técnicas de limpieza de datos que pueden implementarse de manera sistemática.
-    p.mb-5 A continuación, se detallan cada uno de ellos:
+    p(style="color:#000") Una vez se han identificado los tipos de errores, se aplican técnicas específicas para subsanarlos. La elección de la técnica adecuada es un acto de equilibrio que depende del contexto del problema, el tipo y la cantidad de datos sucios, así como el impacto potencial en el modelo final. Para abordar los diversos tipos de errores mencionados, existen varias técnicas de limpieza de datos que pueden implementarse de manera sistemática.
+    p.mb-5(style="color:#000") A continuación, se detallan cada uno de ellos:
 
     .row.mb-4.ms-0.mt-4
       .col-auto.bg-c2(data-aos="fade-left")
@@ -101,13 +101,13 @@
           .col
             h3.mb-0 A.Tratamiento de valores faltantes
 
-    p.mb-5 En esta técnica se suelen aplicar tres formas:
+    p.mb-5(style="color:#000") En esta técnica se suelen aplicar tres formas:
 
     TabsC.color-acento-botones.mb-5(data-aos="flip-up")
       .BGIMG01.py-lg-5.p-4(titulo="Eliminación")
         .row.justify-content-center
           .col-lg-6.order-lg-1.order-2
-              p La estrategia más básica, consiste en suprimir los registros (filas) que presentan valores faltantes, conocida como eliminación por lista completa. Sin embargo, esta técnica debe aplicarse con precaución, ya que puede conllevar una pérdida considerable de datos si los valores faltantes son numerosos, introduciendo un posible sesgo si los datos no faltan de manera completamente aleatoria (Schafer & Graham, 2002). Una alternativa es la eliminación de la variable (columna), si más de un cierto umbral (por ejemplo, 60 %) de sus valores están ausentes.
+              p(style="color:#000") La estrategia más básica, consiste en suprimir los registros (filas) que presentan valores faltantes, conocida como eliminación por lista completa. Sin embargo, esta técnica debe aplicarse con precaución, ya que puede conllevar una pérdida considerable de datos si los valores faltantes son numerosos, introduciendo un posible sesgo si los datos no faltan de manera completamente aleatoria (Schafer & Graham, 2002). Una alternativa es la eliminación de la variable (columna), si más de un cierto umbral (por ejemplo, 60 %) de sus valores están ausentes.
 
           .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             img(src='@/assets/curso/temas/tema1/img-06.png', alt='Imagen decorativa')
@@ -115,7 +115,7 @@
       .BGIMG01.py-lg-5.p-4(titulo="Imputación mediante medidas de tendencia central")
         .row.justify-content-center
           .col-lg-6.order-lg-1.order-2
-            p Una técnica común, consiste en sustituir el valor faltante con una medida estadística derivada del resto de la columna. Para variables numéricas, se emplea frecuentemente la media o la mediana, siendo esta última generalmente más robusta frente a valores atípicos. En el caso de variables categóricas, se utiliza la moda; es decir, el valor más frecuente.
+            p(style="color:#000") Una técnica común, consiste en sustituir el valor faltante con una medida estadística derivada del resto de la columna. Para variables numéricas, se emplea frecuentemente la media o la mediana, siendo esta última generalmente más robusta frente a valores atípicos. En el caso de variables categóricas, se utiliza la moda; es decir, el valor más frecuente.
 
           .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             figure
@@ -124,7 +124,7 @@
       .BGIMG01.py-lg-5.p-4(titulo="Imputación avanzada")
         .row.justify-content-center
           .col-lg-6.order-lg-1.order-2
-            p Existen métodos más avanzados para la imputación de datos. La imputación por regresión estima los valores faltantes basándose en otras variables del conjunto de datos. Por otro lado, la imputación mediante #[em K-NN (K-Nearest Neighbors)] utiliza la media o la moda de los 'k' registros más similares (vecinos) al registro con el valor faltante para realizar la imputación. Estos métodos suelen ofrecer una mayor precisión, aunque son computacionalmente más costosos (Van Buuren, 2018).
+            p(style="color:#000") Existen métodos más avanzados para la imputación de datos. La imputación por regresión estima los valores faltantes basándose en otras variables del conjunto de datos. Por otro lado, la imputación mediante #[em K-NN (K-Nearest Neighbors)] utiliza la media o la moda de los 'k' registros más similares (vecinos) al registro con el valor faltante para realizar la imputación. Estos métodos suelen ofrecer una mayor precisión, aunque son computacionalmente más costosos (Van Buuren, 2018).
 
           .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             figure
@@ -226,7 +226,7 @@
             .row.justify-content-center.p-4.h-100(style="background-color:#D6CDD9; border-radius:20px")
               figure
                 img.mb-2(src="@/assets/curso/temas/tema1/icono-04.svg", alt="", style="width: 60px")
-              p.mb-0 #[em #[b Winsorización (Capping)]]
+              p.mb-0 #[em #[b Winsorización (capping)]]
               p.mb-0 Limitar los valores extremos, por ejemplo, reemplazando cualquier valor por encima del percentil 99 con el valor del percentil 99. 
 
           .col-lg-4.px-4.mb-3
@@ -249,23 +249,23 @@
                 img(src='@/assets/curso/temas/tema1/icono-06.svg', alt='Imagen decorativa') 
 
           .col-lg-8.col-6.col-md-6.col-8.order-lg-2.order-1.mb-lg-0.mb-3.px-0
-            p.mb-2 En conclusión, se puede afirmar que el proceso de limpieza de datos debe seguir un enfoque estructurado que incluya los siguientes pasos: 
+            p.mb-2(style="color:#000") En conclusión, se puede afirmar que el proceso de limpieza de datos debe seguir un enfoque estructurado que incluya los siguientes pasos: 
             ul.lista-ul--color.lista-ul
               li.mb-0
                 i.fas.fa-robot(style="color:#523DBF")
-                p.mb-0 Eliminar observaciones duplicadas o irrelevantes.
+                p.mb-0(style="color:#000") Eliminar observaciones duplicadas o irrelevantes.
               li.mb-0
                 i.fas.fa-robot(style="color:#523DBF")
-                p.mb-0 Corregir errores estructurales en los datos.
+                p.mb-0(style="color:#000") Corregir errores estructurales en los datos.
               li.mb-0
                 i.fas.fa-robot(style="color:#523DBF")
-                p.mb-0 Filtrar valores atípicos no deseados.
+                p.mb-0(style="color:#000") Filtrar valores atípicos no deseados.
               li.mb-0
                 i.fas.fa-robot(style="color:#523DBF")
-                p.mb-0 Manejar adecuadamente los datos faltantes.
+                p.mb-0(style="color:#000") Manejar adecuadamente los datos faltantes.
               li.mb-0
                 i.fas.fa-robot(style="color:#523DBF")
-                p.mb-0 Realizar validación y control de calidad
+                p.mb-0(style="color:#000") Realizar validación y control de calidad
 
 
 

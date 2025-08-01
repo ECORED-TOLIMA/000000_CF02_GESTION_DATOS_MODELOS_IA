@@ -9,20 +9,20 @@
     
     .row.justify-content-center.mb-4(data-aos="flip-up")
       .col-lg-8.order-lg-1.order-2(data-aos="fade-right")
-        p Una vez que se han depurado los datos, asegurando su calidad y consistencia, se enfrenta a un nuevo desafío, sutil, pero de gran impacto: la complejidad. En la era del #[em Big Data], es común trabajar con conjuntos de datos que no solo contienen millones de registros (filas), sino también cientos o miles de características (columnas o dimensiones). Aunque podría parecer que "más datos es siempre mejor", un exceso de dimensiones puede ser perjudicial. Este fenómeno, conocido como la "maldición de la dimensionalidad", puede degradar el rendimiento del modelo, aumentar la complejidad computacional y oscurecer los patrones verdaderamente significativos.
+        p(style="color:#000") Una vez que se han depurado los datos, asegurando su calidad y consistencia, se enfrenta a un nuevo desafío, sutil, pero de gran impacto: la complejidad. En la era del #[em Big Data], es común trabajar con conjuntos de datos que no solo contienen millones de registros (filas), sino también cientos o miles de características (columnas o dimensiones). Aunque podría parecer que "más datos es siempre mejor", un exceso de dimensiones puede ser perjudicial. Este fenómeno, conocido como la "maldición de la dimensionalidad", puede degradar el rendimiento del modelo, aumentar la complejidad computacional y oscurecer los patrones verdaderamente significativos.
         .tarjeta.BG00.p-4.mb-4
           .row.justify-content-center.align-items-center
             .col-lg-2.col-4.mb-lg-0.mb-4
               img(src='@/assets/curso/temas/tema2/icono-01.svg', alt='Imagen decorativa')
             .col-lg-10
-              p.mb-0 La reducción de dimensionalidad constituye un conjunto de técnicas de ingeniería de características empleadas para disminuir el número de variables de entrada en un conjunto de datos, transformándolo en un espacio de menor dimensionalidad, sin perder una cantidad significativa de información relevante. El objetivo no es simplemente eliminar columnas de manera aleatoria, sino hacerlo de una forma inteligente y estructurada que simplifique el problema para los algoritmos de aprendizaje automático. 
+              p.mb-0(style="color:#000") La reducción de dimensionalidad constituye un conjunto de técnicas de ingeniería de características empleadas para disminuir el número de variables de entrada en un conjunto de datos, transformándolo en un espacio de menor dimensionalidad, sin perder una cantidad significativa de información relevante. El objetivo no es simplemente eliminar columnas de manera aleatoria, sino hacerlo de una forma inteligente y estructurada que simplifique el problema para los algoritmos de aprendizaje automático. 
 
       .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/temas/tema2/img-01.png', alt='Imagen decorativa')
 
     .row.justify-content-center.mb-0(data-aos="fade-left")
       .col-lg-10
-        p Este proceso no solo mejora la eficiencia computacional, sino que también puede revelar estructuras latentes en los datos que no eran evidentes en su forma original de alta dimensionalidad. 
+        p(style="color:#000") Este proceso no solo mejora la eficiencia computacional, sino que también puede revelar estructuras latentes en los datos que no eran evidentes en su forma original de alta dimensionalidad. 
 
     .row.justify-content-center.align-items-center.bg-1.mt-4.m-20
       .col-10
@@ -54,7 +54,7 @@
                 figure
                   img(src='@/assets/curso/temas/tema1/icono-01.svg', alt='', style='width: 60px').m-auto
               .col-md
-                p.mb-0 #[b La elección de la técnica adecuada, dependerá de la naturaleza específica de los datos y los objetivos del análisis, requiriendo una comprensión profunda, tanto del dominio del problema como de las matemáticas subyacentes.]
+                p.mb-0(style="color:#000") #[b La elección de la técnica adecuada, dependerá de la naturaleza específica de los datos y los objetivos del análisis, requiriendo una comprensión profunda, tanto del dominio del problema como de las matemáticas subyacentes.]
 
     Separador
 
@@ -63,12 +63,12 @@
 
     .row.justify-content-center.mb-5
       .col-lg-9.order-lg-1.order-2(data-aos="fade-right")
-        p La reducción de dimensionalidad se refiere al proceso de transformar un conjunto de datos con un elevado número de variables originales en otro de menor dimensión, preservando al máximo la información relevante. Esta práctica mejora la eficiencia computacional, mitiga la "maldición de la dimensionalidad" y facilita la visualización de datos. (Jolliffe, 2002)
+        p(style="color:#000") La reducción de dimensionalidad se refiere al proceso de transformar un conjunto de datos con un elevado número de variables originales en otro de menor dimensión, preservando al máximo la información relevante. Esta práctica mejora la eficiencia computacional, mitiga la "maldición de la dimensionalidad" y facilita la visualización de datos. (Jolliffe, 2002).
         .row.justify-content-center.align-items-center
           .col-lg-1.col-2.px-0.mb-lg-0.mb-4
             img(src='@/assets/curso/temas/tema3/icono-17.svg' alt="Imagen decorativa")
           .col-lg-11
-            p.mb-0 El concepto central de la reducción de dimensionalidad se fundamenta en la mitigación de la "maldición de la dimensionalidad", un término acuñado por el matemático Richard Bellman (1961). Este fenómeno describe cómo, al incrementarse el número de dimensiones, el volumen del espacio de características crece de manera exponencial, generando varios efectos adversos: 
+            p.mb-0(style="color:#000") El concepto central de la reducción de dimensionalidad se fundamenta en la mitigación de la "maldición de la dimensionalidad", un término acuñado por el matemático Richard Bellman (1961). Este fenómeno describe cómo, al incrementarse el número de dimensiones, el volumen del espacio de características crece de manera exponencial, generando varios efectos adversos: 
       .col-lg-3.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/temas/tema2/img-03.svg' alt="Imagen decorativa")
 
@@ -77,7 +77,7 @@
         .row.justify-content-center.p-4
           .col-lg-5.order-lg-1.order-2
             h4 Dispersión de datos
-            p.mb-0 En un espacio de alta dimensión, los puntos de datos se tornan extremadamente dispersos. La distancia entre cualquier par de puntos tiende a ser similar, lo que dificulta que los algoritmos basados en la distancia, como K-NN, puedan agrupar o diferenciar observaciones de manera eficaz. 
+            p.mb-0(style="color:#000") En un espacio de alta dimensión, los puntos de datos se tornan extremadamente dispersos. La distancia entre cualquier par de puntos tiende a ser similar, lo que dificulta que los algoritmos basados en la distancia, como K-NN, puedan agrupar o diferenciar observaciones de manera eficaz. 
           .col-lg-7.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/temas/tema2/img-04.png', alt='Imagen decorativa')
@@ -85,7 +85,7 @@
         .row.justify-content-center.p-4
           .col-lg-5.order-lg-1.order-2
             h4 Aumento del costo computacional
-            p.mb-3 Un mayor número de dimensiones implica más parámetros que un modelo debe aprender, lo cual se traduce directamente en tiempos de entrenamiento más prolongados, mayor consumo de memoria y una infraestructura más costosa. 
+            p.mb-3(style="color:#000") Un mayor número de dimensiones implica más parámetros que un modelo debe aprender, lo cual se traduce directamente en tiempos de entrenamiento más prolongados, mayor consumo de memoria y una infraestructura más costosa. 
           .col-lg-7.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/temas/tema2/img-05.png', alt='Imagen decorativa')
@@ -93,7 +93,7 @@
         .row.justify-content-center.p-4
           .col-lg-5.order-lg-1.order-2
             h4 Riesgo de sobreajuste #[em (overfitting)]
-            p.mb-3 Con una gran cantidad de características, es más probable que un modelo aprenda del "ruido" y de las peculiaridades específicas del conjunto de entrenamiento, en lugar de generalizar los patrones subyacentes. El modelo se vuelve excesivamente complejo y funciona muy bien con los datos que ya ha visto, pero falla al predecir sobre datos nuevos. 
+            p.mb-3(style="color:#000") Con una gran cantidad de características, es más probable que un modelo aprenda del "ruido" y de las peculiaridades específicas del conjunto de entrenamiento, en lugar de generalizar los patrones subyacentes. El modelo se vuelve excesivamente complejo y funciona muy bien con los datos que ya ha visto, pero falla al predecir sobre datos nuevos. 
           .col-lg-7.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/temas/tema2/img-06.png', alt='Imagen decorativa')
@@ -101,7 +101,7 @@
         .row.justify-content-center.p-4
           .col-lg-5.order-lg-1.order-2
             h4 Multicolinealidad
-            p.mb-3 En muchos conjuntos de datos, algunas características están altamente correlacionadas entre sí (por ejemplo, las variables "altura en metros" y "altura en centímetros"). Esta redundancia no aporta nueva información y puede desestabilizar algunos modelos de aprendizaje automático, como la regresión lineal. 
+            p.mb-3(style="color:#000") En muchos conjuntos de datos, algunas características están altamente correlacionadas entre sí (por ejemplo, las variables "altura en metros" y "altura en centímetros"). Esta redundancia no aporta nueva información y puede desestabilizar algunos modelos de aprendizaje automático, como la regresión lineal. 
           .col-lg-7.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/temas/tema2/img-07.png', alt='Imagen decorativa')
@@ -110,7 +110,7 @@
       .col-12
         .row.justify-content-center
           .col-lg-8.col-12.mb-md-0.order-lg-2.order-2.mb-lg-0.mb-3
-            p La reducción de dimensionalidad aborda estos desafíos al identificar y retener solo las características más relevantes y significativas del conjunto de datos original. Este proceso no solo mitiga los problemas mencionados, sino que también puede revelar estructuras latentes en los datos que no eran evidentes en su forma de alta dimensión. Además, la visualización de datos se vuelve más factible y comprensible cuando se reduce a dos o tres dimensiones, permitiendo a los analistas y científicos de datos obtener #[em insights] valiosos que de otra manera podrían pasar desapercibidos.
+            p(style="color:#000") La reducción de dimensionalidad aborda estos desafíos al identificar y retener solo las características más relevantes y significativas del conjunto de datos original. Este proceso no solo mitiga los problemas mencionados, sino que también puede revelar estructuras latentes en los datos que no eran evidentes en su forma de alta dimensión. Además, la visualización de datos se vuelve más factible y comprensible cuando se reduce a dos o tres dimensiones, permitiendo a los analistas y científicos de datos obtener #[em insights] valiosos que de otra manera podrían pasar desapercibidos.
 
           .col-lg-4.col-6.col-md-6.col-8.order-lg-1.order-1.mb-lg-0.mb-3
             figure7
@@ -121,7 +121,7 @@
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 2.2 Técnicas
 
-    p.mb-3(data-aos="flip-left") Las técnicas para reducir la dimensionalidad se dividen en dos grandes familias, cada una con su propia filosofía y aplicabilidad.
+    p.mb-3(data-aos="flip-left")(style="color:#000") Las técnicas para reducir la dimensionalidad se dividen en dos grandes familias, cada una con su propia filosofía y aplicabilidad.
 
     .row.mb-4.ms-0.mt-4
       .col-auto.bg-c2(data-aos="fade-left")
@@ -130,13 +130,13 @@
             figure
               img(src='@/assets/curso/ico.svg', alt='', style='width: 40px')
           .col
-            h3.mb-0 A. Selección de características #[em (Feature selection)]
+            h3.mb-0 A. Selección de características #[em (feature selection)]
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-2.col-6.px-0.mb-lg-0.mb-4(data-aos="fade-right")
         img(src='@/assets/curso/temas/tema2/icono-03.svg' alt="Imagen decorativa")
       .col-lg-10(data-aos="fade-left")
-        p.mb-0 Este enfoque se centra en la identificación y selección de un subconjunto de las características originales, descartando las restantes. La principal ventaja de este método radica en que preserva la interpretabilidad de las variables originales, ya que se retienen únicamente las columnas más informativas. Estas técnicas pueden clasificarse en tres categorías, (Guyon & Elisseeff, 2003):
+        p.mb-0(style="color:#000") Este enfoque se centra en la identificación y selección de un subconjunto de las características originales, descartando las restantes. La principal ventaja de este método radica en que preserva la interpretabilidad de las variables originales, ya que se retienen únicamente las columnas más informativas. Estas técnicas pueden clasificarse en tres categorías, (Guyon & Elisseeff, 2003):
 
     .row.mb-4.ms-0.mt-4
       .col-auto.bg-c2(data-aos="fade-left")
@@ -155,16 +155,16 @@
           .bottomCircle.mb-4
             figure
               img(src="@/assets/curso/temas/tema2/icono-04.svg", alt="alt").img90.m-auto
-          h4.titulo-1.text-center Prueba de Chi-cuadrado (X2)
-          p.mb-0 Se emplea para determinar si existe una dependencia significativa entre dos variables categóricas. Se utiliza comúnmente para seleccionar las características categóricas más relevantes para una variable objetivo también categórica. 
+          h4.titulo-1.text-center Prueba de chi-cuadrado (X2)
+          p.mb-0(style="color:#000") Se emplea para determinar si existe una dependencia significativa entre dos variables categóricas. Se utiliza comúnmente para seleccionar las características categóricas más relevantes para una variable objetiva también categórica. 
 
       .col-xl-4.col-lg-8.mb-4.mb-xl-5
         .crd.crd--grayGrad(data-aos="flip-left")
           .bottomCircle.mb-4
             figure
               img(src="@/assets/curso/temas/tema2/icono-05.svg", alt="alt").img90.m-auto
-          h4.titulo-1 ANOVA (Análisis de varianza)
-          p.mb-0 La prueba F de ANOVA permite comparar las medias de una variable continua entre dos o más grupos categóricos. Es útil para seleccionar características numéricas que tienen una relación fuerte con una variable objetivo categórica.
+          h4.titulo-1 ANOVA (análisis de varianza)
+          p.mb-0(style="color:#000") La prueba F de ANOVA permite comparar las medias de una variable continua entre dos o más grupos categóricos. Es útil para seleccionar características numéricas que tienen una relación fuerte con una variable objetiva categórica.
 
       .col-xl-4.col-lg-8.mb-4.mb-xl-5
         .crd.crd--grayGrad(data-aos="flip-left")
@@ -172,7 +172,7 @@
             figure
               img(src="@/assets/curso/temas/tema2/icono-06.svg", alt="alt").img90.m-auto
           h4.titulo-1 Coeficiente de correlación de Pearson
-          p.mb-0 Mide la relación lineal entre dos variables numéricas. Se utiliza para identificar características que están altamente correlacionadas con la variable objetivo (en problemas de regresión) y también para identificar y eliminar características redundantes (multicolinealidad)..]
+          p.mb-0(style="color:#000") Mide la relación lineal entre dos variables numéricas. Se utiliza para identificar características que están altamente correlacionadas con la variable objetivo (en problemas de regresión) y también para identificar y eliminar características redundantes (multicolinealidad).
 
     .row.mb-4.ms-0.mt-4
       .col-auto.bg-c2(data-aos="fade-left")
@@ -181,7 +181,7 @@
             figure
               img(src='@/assets/curso/ico2.svg', alt='', style='width: 5.7px')
           .col
-            h3.mb-0 II. Métodos de envoltura #[em (Wrapper methods)]
+            h3.mb-0 II. Métodos de envoltura #[em (wrapper methods)]
 
     p.mb-4(data-aos="flip-left") Estos métodos emplean un algoritmo de aprendizaje automático específico, para evaluar la utilidad de diferentes subconjuntos de características. Consideran la selección de características como un problema de búsqueda, donde cada estado representa un conjunto de variables. Aunque son más precisos que los métodos de filtro, su costo computacional es significativamente mayor e incluyen:
 
@@ -196,7 +196,7 @@
               .col-lg-6.order-lg-2.order-2
                 p Este es un método iterativo que comienza entrenando un modelo con todas las características disponibles. Posteriormente, se evalúa la importancia de cada característica, por ejemplo, mediante los coeficientes en una regresión o la impureza en un árbol de decisión. La característica menos importante se elimina y el proceso se repite hasta alcanzar el número deseado de características. 
 
-          .BGIMG01.py-lg-5.p-4(titulo="Selección hacia adelante <em>(Forward selection)</em>")
+          .BGIMG01.py-lg-5.p-4(titulo="Selección hacia adelante <em>(forward selection)</em>")
             .row.justify-content-center
               .col-lg-6.col-8.order-lg-1.order-1.mb-lg-0.mb-4
                 figure
@@ -212,7 +212,7 @@
             figure
               img(src='@/assets/curso/ico2.svg', alt='', style='width: 5.7px')
           .col
-            h3.mb-0 III. Métodos integrados #[em (Embedded methods)]
+            h3.mb-0 III. Métodos integrados #[em (embedded methods)]
 
     p.mb-4(data-aos="flip-left") Realizan la selección de características, como parte integral del proceso de entrenamiento del modelo. Estos métodos ofrecen un equilibrio entre la precisión de los métodos de envoltura y la eficiencia de los métodos de filtro; además, incluyen:
 

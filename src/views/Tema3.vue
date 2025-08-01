@@ -12,7 +12,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img-01.png')})`}" data-aos="fade-right"
       )
       .bloque-texto-g__texto.p-4(data-aos="fade-left")
-        p.mb-0 El aprendizaje automático o #[em Machine Learning (ML)], constituye una subdisciplina de la inteligencia artificial y la informática, centrada en la utilización de datos y algoritmos para emular el proceso de aprendizaje humano, mejorando progresivamente su precisión. La definición canónica, propuesta por Tom M. Mitchell (1997), establece que un programa de computadora aprende de la experiencia E en relación con una clase de tareas T y una medida de rendimiento P, si su desempeño en las tareas T, evaluado por P, mejora con la experiencia E. 
+        p.mb-0 El aprendizaje automático o #[em Machine Learning] (ML), constituye una subdisciplina de la inteligencia artificial y la informática, centrada en la utilización de datos y algoritmos para emular el proceso de aprendizaje humano, mejorando progresivamente su precisión. La definición canónica, propuesta por Tom M. Mitchell (1997), establece que un programa de computadora aprende de la experiencia E en relación con una clase de tareas T y una medida de rendimiento P, si su desempeño en las tareas T, evaluado por P, mejora con la experiencia E. 
 
     .row.justify-content-center.mb-0(data-aos="fade-left")
       .col-lg-10
@@ -63,14 +63,14 @@
     .row.justify-content-center.mb-0
       .col-12.col-md-10(data-aos="fade-down")
         TabsC.color-acento-botones.mb-5(data-aos="flip-up")
-          .BGIMG01.py-lg-5.p-4(titulo="Agrupamiento <em>(Clustering)</em>")
+          .BGIMG01.py-lg-5.p-4(titulo="Agrupamiento <em>(clustering)</em>")
             .row.justify-content-center
               .col-lg-6.col-8.order-lg-1.order-1.mb-lg-0.mb-4
                 figure
                   img(src='@/assets/curso/temas/tema3/img-03.png', alt='Imagen decorativa')
 
               .col-lg-6.order-lg-2.order-2
-                p El propósito es organizar las observaciones en clústeres o segmentos, de manera que los integrantes de un mismo clúster presenten una alta similitud entre sí y una marcada diferencia respecto a los integrantes de otros clústeres. Un ejemplo de aplicación sería la segmentación de clientes basada en su comportamiento de compra para desarrollar campañas de #[em marketing] personalizadas.
+                p El propósito es organizar las observaciones en #[em clústeres] o segmentos, de manera que los integrantes de un mismo clúster presenten una alta similitud entre sí y una marcada diferencia respecto a los integrantes de otros #[em clústeres]. Un ejemplo de aplicación sería la segmentación de clientes basada en su comportamiento de compra para desarrollar campañas de #[em marketing] personalizadas.
 
           .BGIMG01.py-lg-5.p-4.py-3.py-md-4(titulo="Reglas de asociación")
             .row.justify-content-center
@@ -79,7 +79,7 @@
                   img(src='@/assets/curso/temas/tema3/img-04.png', alt='Imagen decorativa')
 
               .col-lg-6.order-lg-2.order-2
-                p Su objetivo identificar relaciones significativas entre variables en grandes bases de datos. Un ejemplo clásico de su aplicación es el "análisis de la cesta de mercado", que puede revelar patrones como que los clientes que compran pañales también tienden a adquirir cerveza (Agrawal, Imieliński, Swami, 1993).
+                p Su objetivo es identificar relaciones significativas entre variables en grandes bases de datos. Un ejemplo clásico de su aplicación es el "análisis de la cesta de mercado", que puede revelar patrones como que los clientes que compran pañales también tienden a adquirir cerveza (Agrawal, Imieliński, Swami, 1993).
     
     Separador
 
@@ -106,7 +106,7 @@
             figure.d-none.d-xl-block
               img(src='@/assets/curso/temas/tema3/img-05.png', alt='' style="max-width: 400px").m-auto
           .col-xl
-            p.mb-0 Este tipo de técnica es quizás el paradigma más ampliamente difundido y estudiado. En este enfoque, el algoritmo aprende a partir de un conjunto de datos de entrenamiento que ha sido "etiquetado" por un experto humano. Cada punto de datos de entrada, conocido como vector de características (X), tiene una etiqueta o resultado de salida correspondiente (y). El objetivo del algoritmo es aprender una función de mapeo “f” tal que y=f(X). Durante el proceso de entrenamiento, el modelo realiza predicciones y las compara con la etiqueta correcta, ajustando sus parámetros internos para minimizar el error.
+            p.mb-0 Este tipo de técnica es quizás el paradigma más ampliamente difundido y estudiado. En este enfoque, el algoritmo aprende a partir de un conjunto de datos de entrenamiento que ha sido "etiquetado" por un experto humano. Cada punto de datos de entrada, conocido como vector de características (X), tiene una etiqueta o resultado de salida correspondiente (y). El objetivo del algoritmo es aprender una función de mapeo “f” tal que y = f(X). Durante el proceso de entrenamiento, el modelo realiza predicciones y las compara con la etiqueta correcta, ajustando sus parámetros internos para minimizar el error.
 
     p.mb-4(data-aos="fade-left") Los algoritmos que suelen utilizarse en esta técnica son de dos tipos:
 
@@ -119,7 +119,7 @@
           .col
             h3.mb-0 I. Algoritmos de regresión
 
-    p.mb-4(data-aos="fade-left") Los algoritmos que suelen utilizarse en esta técnica son de dos tipos:
+    p.mb-4(data-aos="fade-left") Entre los algoritmos de regresión se tiene: 
 
     .row.justify-content-center.mb-5
       .col-lg-5.col-8.mb-lg-0.mb-4(data-aos="fade-right")
@@ -177,15 +177,15 @@
                 .row.justify-content-center.mb-3
                   .col-lg-5.col-sm-4.col-6
                     img(src='@/assets/curso/temas/tema3/icono-07.svg' alt='AvatarTop')
-                h4.text-center Árboles de Decisión y #[em Random Fores]
-                p Los árboles de decisión aprenden una serie de reglas de "si... entonces..." para dividir los datos. Random Forest es un método de ensemble que construye múltiples árboles de decisión y combina sus predicciones para obtener un resultado más robusto y preciso..
+                h4.text-center Árboles de decisión y #[em Random fores]
+                p Los árboles de decisión aprenden una serie de reglas de "si... entonces..." para dividir los datos. Random forest es un método de ensamble que construye múltiples árboles de decisión y combina sus predicciones para obtener un resultado más robusto y preciso..
 
               .tarjeta.tarjeta--BG03.p-4
                 .row.justify-content-center.mb-3
                   .col-lg-5.col-sm-4.col-6
                     img(src='@/assets/curso/temas/tema3/icono-08.svg' alt='AvatarTop')
                 h4.text-center #[em Naive Bayes]
-                p Clasificador probabilístico basado en el teorema de Bayes con una suposición "ingenua" (naive) de independencia entre las características.
+                p Clasificador probabilístico basado en el teorema de #[em Bayes] con una suposición "ingenua" (#[em naive]) de independencia entre las características.
 
     .row.mb-4.ms-0.mt-4
       .col-auto.bg-c2(data-aos="fade-left")
@@ -207,7 +207,7 @@
                 figure
                   img(src='@/assets/curso/ico2.svg', alt='', style='width: 5.7px')
               .col
-                h3.mb-0 I. Algoritmos de Agrupamiento #[em (Clustering)]
+                h3.mb-0 I. Algoritmos de agrupamiento (Clustering)
 
         p(data-aos="fade-left") Estos algoritmos tienen presente los siguientes tipos:
 
@@ -257,7 +257,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img-07.png')})`}" data-aos="fade-right"
       )
       .bloque-texto-g__texto.p-4(data-aos="fade-left")
-        p.mb-0 Estos algoritmos de aprendizaje no supervisado son fundamentales en el análisis exploratorio de datos y la identificación de patrones ocultos. El #[em K-Means], por ejemplo, es ampliamente utilizado en segmentación de clientes y análisis de mercado, mientras que el DBSCAN es particularmente útil en la detección de anomalías y agrupamiento espacial. Por otro lado, el algoritmo #[em Apriori] encuentra aplicaciones en el análisis de canasta de mercado y sistemas de recomendación, ayudando a descubrir relaciones interesantes entre productos o elementos.
+        p.mb-0 Estos algoritmos de aprendizaje no supervisado son fundamentales en el análisis exploratorio de datos y la identificación de patrones ocultos. El #[em K-Means], por ejemplo, es ampliamente utilizado en segmentación de clientes y análisis de mercado, mientras que el DBSCAN es particularmente útil en la detección de anomalías y agrupamiento espacial. Por otro lado, el algoritmo Apriori encuentra aplicaciones en el análisis de canasta de mercado y sistemas de recomendación, ayudando a descubrir relaciones interesantes entre productos o elementos.
 
     .row.mb-4.ms-0.mt-4
       .col-auto.bg-c2(data-aos="fade-left")

@@ -3,7 +3,7 @@ export default {
     componenteFormativo:
       'Técnicas de limpieza en modelos de aprendizaje automático',
     descripcionCurso:
-      'La inteligencia artificial (IA) está permeando en muchas área y sectores, esto ha impulsado nuevas ideas de negocio en las organizaciones y empresas. De ahí que la calidad de los datos sea crucial para el entrenamiento de modelos y así obtener predicciones precisas. Si los datos son desordenados o incorrectos, el modelo también lo será.',
+      'La inteligencia artificial (IA) está permeando en muchas áreas y sectores, esto ha impulsado nuevas ideas de negocio en las organizaciones y empresas. De ahí que la calidad de los datos sea crucial para el entrenamiento de modelos y así obtener predicciones precisas. Si los datos son desordenados o incorrectos, el modelo también lo será.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -184,22 +184,22 @@ export default {
   ],
   glosario: [
     {
-      termino: '<em>Bias-Variance Tradeoff</em> (Compensación Sesgo-Varianza)',
+      termino: '<em>Bias-variance tradeoff</em> (compensación sesgo-varianza)',
       significado:
         'describe la relación entre sesgo (errores por suposiciones simplificadoras) y varianza (sensibilidad a fluctuaciones en datos de entrenamiento).',
     },
     {
-      termino: '<em>Cross-Validation</em> (Validación Cruzada)',
+      termino: '<em>Cross-validation</em> (validación cruzada)',
       significado:
         'técnica de evaluación que divide los datos en múltiples subconjuntos para entrenar y evaluar el modelo repetidamente, proporcionando una estimación más robusta del rendimiento y ayudando a detectar sobreajuste.',
     },
     {
-      termino: '<em>Ensemble Methods</em> (Métodos de Ensamble)',
+      termino: '<em>Ensemble methods</em> (métodos de ensamble)',
       significado:
         'técnicas que combinan múltiples modelos de aprendizaje automático para crear un predictor más fuerte que cualquiera de los modelos individuales. Incluyen métodos como <em>bagging, boosting y stacking.</em>',
     },
     {
-      termino: 'Ingeniería de Características',
+      termino: 'Ingeniería de características',
       significado:
         'conjunto de técnicas para transformar y seleccionar variables derivadas de datos brutos con el fin de mejorar el rendimiento de los modelos de IA. Incluye creación de nuevas características, codificación de categorías y escalado de valores.',
     },
