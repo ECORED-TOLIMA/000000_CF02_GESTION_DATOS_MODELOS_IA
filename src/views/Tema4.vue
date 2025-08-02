@@ -92,15 +92,15 @@
     .row.justify-content-center.mb-5
       .col-lg-7.order-lg-1.order-2(data-aos="fade-right")
         LineaTiempoD.color-acento-botones.especial
-          p.mb-0(numero="1" titulo="Exactitud (Accuracy)") La métrica más intuitiva. Representa la proporción de predicciones correctas. Aunque es fácil de entender, puede ser muy engañosa en conjuntos de datos desbalanceados. Por ejemplo, si el 99 % de las transacciones no son fraudulentas, un modelo que siempre predice "no fraude" tendrá un 99 % de exactitud, pero será completamente inútil para detectar el fraude.
+          p.mb-0(numero="1" titulo="Exactitud (accuracy)") La métrica más intuitiva. Representa la proporción de predicciones correctas. Aunque es fácil de entender, puede ser muy engañosa en conjuntos de datos desbalanceados. Por ejemplo, si el 99 % de las transacciones no son fraudulentas, un modelo que siempre predice "no fraude" tendrá un 99 % de exactitud, pero será completamente inútil para detectar el fraude.
 
-          p.mb-0(numero="2" titulo="Precisión (Precision)") De todas las veces que el modelo predijo "positivo", ¿cuántas acertó? Es crucial cuando el costo de un Falso Positivo es alto.
+          p.mb-0(numero="2" titulo="Precisión (precision)") De todas las veces que el modelo predijo "positivo", ¿cuántas acertó? Es crucial cuando el costo de un falso positivo es alto.
 
-          p.mb-0(numero="3" titulo="Sensibilidad (Recall o Exhaustividad)") De todos los casos que eran realmente "positivos", ¿cuántos fue capaz de identificar el modelo? Es la métrica más importante cuando el costo de un Falso Negativo es alto (como en el diagnóstico médico).
+          p.mb-0(numero="3" titulo="Sensibilidad (recall o exhaustividad)") De todos los casos que eran realmente "positivos", ¿cuántos fue capaz de identificar el modelo? Es la métrica más importante cuando el costo de un Falso Negativo es alto (como en el diagnóstico médico).
 
           p.mb-0(numero="4" titulo="Puntuación F1 (F1-<em>Score</em>)") Es la media armónica de la precisión y la sensibilidad. Proporciona una única métrica que equilibra ambas, y es especialmente útil cuando se tienen clases desbalanceadas.
 
-          p.mb-0(numero="5" titulo="Curva ROC y AUC") Es un gráfico que muestra el rendimiento de un clasificador, a través de todos los umbrales de clasificación. Grafica la Tasa de verdaderos positivos #[em (Recall)] frente a la Tasa de falsos positivos (FP/(FP+TN)). Un modelo perfecto se ubicaría en la esquina superior izquierda (100 % de sensibilidad, 0 % de falsos positivos). Se puede decir que es una métrica agregada que representa la capacidad general del modelo para discriminar entre las clases. Un AUC de 1.0 es un clasificador perfecto, mientras que un AUC de 0.5 representa un modelo que no es mejor que una elección al azar (Fawcett, 2006).
+          p.mb-0(numero="5" titulo="Curva ROC y AUC") Es un gráfico que muestra el rendimiento de un clasificador, a través de todos los umbrales de clasificación. Grafica la tasa de verdaderos positivos #[em (Recall)] frente a la tasa de falsos positivos (FP/(FP+TN)). Un modelo perfecto se ubicaría en la esquina superior izquierda (100 % de sensibilidad, 0 % de falsos positivos). Se puede decir que es una métrica agregada que representa la capacidad general del modelo para discriminar entre las clases. Un AUC de 1.0 es un clasificador perfecto, mientras que un AUC de 0.5 representa un modelo que no es mejor que una elección al azar (Fawcett, 2006).
 
       .col-lg-3.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         figure

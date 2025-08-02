@@ -204,7 +204,7 @@ export default {
         'conjunto de técnicas para transformar y seleccionar variables derivadas de datos brutos con el fin de mejorar el rendimiento de los modelos de IA. Incluye creación de nuevas características, codificación de categorías y escalado de valores.',
     },
     {
-      termino: '<em>Overfitting</em> (Sobreajuste)',
+      termino: '<em>Overfitting</em> (sobreajuste)',
       significado:
         'fenómeno donde un modelo aprende demasiado específicamente de los datos de entrenamiento, incluyendo ruido, resultando en excelente rendimiento en entrenamiento, pero pobre generalización a datos nuevos.',
     },

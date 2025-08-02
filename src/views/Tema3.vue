@@ -178,7 +178,7 @@
                   .col-lg-5.col-sm-4.col-6
                     img(src='@/assets/curso/temas/tema3/icono-07.svg' alt='AvatarTop')
                 h4.text-center Árboles de decisión y #[em Random fores]
-                p Los árboles de decisión aprenden una serie de reglas de "si... entonces..." para dividir los datos. Random forest es un método de ensamble que construye múltiples árboles de decisión y combina sus predicciones para obtener un resultado más robusto y preciso..
+                p Los árboles de decisión aprenden una serie de reglas de "si... entonces..." para dividir los datos. Random forest es un método de #[em ensamble] que construye múltiples árboles de decisión y combina sus predicciones para obtener un resultado más robusto y preciso..
 
               .tarjeta.tarjeta--BG03.p-4
                 .row.justify-content-center.mb-3
@@ -338,7 +338,7 @@
                   figure
                     img(src='@/assets/curso/temas/tema3/icono-16.svg', alt='Imagen decorativa')
                 .col-lg-10.col-12.mb-0.order-lg-2.order-2.mb-lg-0
-                  p.mb-0 La elección depende de si el "por qué" es tan importante como el "qué". Los supuestos del modelo también son necesarios: muchos algoritmos se basan en ciertas suposiciones sobre los datos (por ejemplo, la regresión lineal asume linealidad y baja multicolinealidad; Naive Bayes asume independencia de las características). Es esencial tener un conocimiento básico de estos supuestos para evitar aplicar un modelo de manera incorrecta. Las restricciones computacionales también juegan un papel: ¿cuánto tiempo se tiene para entrenar el modelo? ¿Qué tan rápidas deben ser las predicciones en producción? 
+                  p.mb-0 La elección depende de si el "por qué" es tan importante como el "qué". Los supuestos del modelo también son necesarios: muchos algoritmos se basan en ciertas suposiciones sobre los datos (por ejemplo, la regresión lineal asume linealidad y baja multicolinealidad; #[em Naive Bayes] asume independencia de las características). Es esencial tener un conocimiento básico de estos supuestos para evitar aplicar un modelo de manera incorrecta. Las restricciones computacionales también juegan un papel: ¿cuánto tiempo se tiene para entrenar el modelo? ¿Qué tan rápidas deben ser las predicciones en producción? 
 
           .col-lg-3.col-6.col-md-6.col-8.order-lg-2.order-1.mb-lg-0.mb-3
             figure
