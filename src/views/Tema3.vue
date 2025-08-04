@@ -207,7 +207,7 @@
                 figure
                   img(src='@/assets/curso/ico2.svg', alt='', style='width: 5.7px')
               .col
-                h3.mb-0 I. Algoritmos de agrupamiento (Clustering)
+                h3.mb-0 I. Algoritmos de agrupamiento (clustering)
 
         p(data-aos="fade-left") Estos algoritmos tienen presente los siguientes tipos:
 
@@ -217,14 +217,14 @@
               figure
                 img.mb-2(src="@/assets/curso/temas/tema3/icono-09.svg", alt="", style="width: 60px")
               p.mb-0 #[b #[em K-Means]]
-              p.mb-0 Este es un algoritmo iterativo que organiza los datos en un número predefinido 'k' de clústeres, asignando cada punto de datos al clúster cuyo centroide (media) se encuentra más próximo. 
+              p.mb-0 Este es un algoritmo iterativo que organiza los datos en un número predefinido 'k' de #[em clústeres], asignando cada punto de datos al #[em clúster] cuyo centroide (media) se encuentra más próximo. 
 
           .col-lg-6.px-4.mb-3(data-aos="fade-left")
             .row.justify-content-center.p-3.h-100(style="background-color:#D6CDD9; border-radius:20px")
               figure
                 img.mb-2(src="@/assets/curso/temas/tema3/icono-10.svg", alt="", style="width: 60px")
               p.mb-0 #[b DBSCAN]
-              p.mb-0 Este método, basado en la densidad, es capaz de identificar clústeres de formas arbitrarias y detectar el ruido punto de datos al clúster cuyo centroide (media) se encuentra más próximo. 
+              p.mb-0 Este método, basado en la densidad, es capaz de identificar #[em clústeres] de formas arbitrarias y detectar el ruido punto de datos al #[em clúster] cuyo centroide (media) se encuentra más próximo. 
 
       .col-lg-4.d-none.d-lg-block
         figure
@@ -316,7 +316,7 @@
           img(src='@/assets/curso/temas/tema3/img-09.png')
 
       .col-lg-8(data-aos="fade-right")
-        p Con una amplia variedad de algoritmos disponibles, la elección del más adecuado para un problema específico constituye una de las decisiones más críticas. No existe un algoritmo "mejor" de manera universal, un principio formalizado en el teorema "No Free Lunch" (Wolpert, 1996), que establece que ningún algoritmo puede superar a todos los demás en todos los problemas posibles. La elección implica un compromiso entre varios factores. Por ejemplo, la naturaleza del problema es el primer filtro a considerar. ¿Se trata de un problema de regresión, clasificación o agrupamiento? Esto limita significativamente las opciones disponibles. 
+        p Con una amplia variedad de algoritmos disponibles, la elección del más adecuado para un problema específico constituye una de las decisiones más críticas. No existe un algoritmo "mejor" de manera universal, un principio formalizado en el teorema #[em "No Free Lunch"] (Wolpert, 1996), que establece que ningún algoritmo puede superar a todos los demás en todos los problemas posibles. La elección implica un compromiso entre varios factores. Por ejemplo, la naturaleza del problema es el primer filtro a considerar. ¿Se trata de un problema de regresión, clasificación o agrupamiento? Esto limita significativamente las opciones disponibles. 
         .p-3.mt-4(style="background-color:#FFEBF1; border-radius:15px")
           .row
             .col-auto.d-none.d-md-block(style="place-self:center;")
