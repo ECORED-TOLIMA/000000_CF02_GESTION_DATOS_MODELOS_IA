@@ -79,11 +79,11 @@
           .tarjeta.tarjeta--blanca.p-3(x="39.5%" y="35%" numero="+")(style="background-color:#EAE7FB")
             p El modelo predijo "positivo" y la clase real era "positivo". (Ej: El modelo detectó correctamente una transacción fraudulenta).
           .tarjeta.tarjeta--blanca.p-3(x="66.5%" y="35%" numero="+")(style="background-color:#EAE7FB")
-            p El modelo predijo "negativo" y la clase real era "negativo". (Ej: El modelo identificó correctamente una transacción legítima).
-          .tarjeta.tarjeta--blanca.p-3(x="39.5%" y="65%" numero="+")(style="background-color:#EAE7FB")
             p El modelo predijo "positivo", pero la clase real era "negativo". (Ej: El modelo marcó una transacción legítima como fraude, causando una molestia al cliente).
-          .tarjeta.tarjeta--blanca.p-3(x="66.5%" y="65%" numero="+")(style="background-color:#EAE7FB")
+          .tarjeta.tarjeta--blanca.p-3(x="39.5%" y="65%" numero="+")(style="background-color:#EAE7FB")
             p El modelo predijo "negativo", pero la clase real era "positivo". (Ej: El modelo no detectó una transacción fraudulenta, causando una pérdida financiera).
+          .tarjeta.tarjeta--blanca.p-3(x="66.5%" y="65%" numero="+")(style="background-color:#EAE7FB")
+            p El modelo predijo "negativo" y la clase real era "negativo". (Ej: El modelo identificó correctamente una transacción legítima).
         figure.movil
           img.mb-4(src='@/assets/curso/temas/tema4/img-04-v02.svg', alt='Imagen decorativa')
 

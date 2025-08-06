@@ -70,7 +70,7 @@
                   img(src='@/assets/curso/temas/tema3/img-03.png', alt='Imagen decorativa')
 
               .col-lg-6.order-lg-2.order-2
-                p El propósito es organizar las observaciones en #[em clústeres] o segmentos, de manera que los integrantes de un mismo clúster presenten una alta similitud entre sí y una marcada diferencia respecto a los integrantes de otros #[em clústeres]. Un ejemplo de aplicación sería la segmentación de clientes basada en su comportamiento de compra para desarrollar campañas de #[em marketing] personalizadas.
+                p El propósito es organizar las observaciones en clústeres o segmentos, de manera que los integrantes de un mismo clúster presenten una alta similitud entre sí y una marcada diferencia respecto a los integrantes de otros clústeres. Un ejemplo de aplicación sería la segmentación de clientes basada en su comportamiento de compra para desarrollar campañas de #[em marketing] personalizadas.
 
           .BGIMG01.py-lg-5.p-4.py-3.py-md-4(titulo="Reglas de asociación")
             .row.justify-content-center
@@ -156,7 +156,7 @@
                 .row.justify-content-center.mb-3
                   .col-lg-5.col-sm-4.col-6
                     img(src='@/assets/curso/temas/tema3/icono-03.svg' alt='AvatarTop')
-                h4.text-center Regresión Logística
+                h4.text-center Regresión logística
                 p Es un método de clasificación que modela la probabilidad de que una entrada pertenezca a una clase particular.
 
               .tarjeta.tarjeta--BG03.p-4
@@ -177,8 +177,8 @@
                 .row.justify-content-center.mb-3
                   .col-lg-5.col-sm-4.col-6
                     img(src='@/assets/curso/temas/tema3/icono-07.svg' alt='AvatarTop')
-                h4.text-center Árboles de decisión y #[em Random fores]
-                p Los árboles de decisión aprenden una serie de reglas de "si... entonces..." para dividir los datos. Random forest es un método de #[em ensamble] que construye múltiples árboles de decisión y combina sus predicciones para obtener un resultado más robusto y preciso..
+                h4.text-center Árboles de decisión y #[em Random Forest]
+                p Los árboles de decisión aprenden una serie de reglas de "si... entonces..." para dividir los datos. Random Forest es un método de #[em ensamble] que construye múltiples árboles de decisión y combina sus predicciones para obtener un resultado más robusto y preciso..
 
               .tarjeta.tarjeta--BG03.p-4
                 .row.justify-content-center.mb-3
@@ -207,7 +207,7 @@
                 figure
                   img(src='@/assets/curso/ico2.svg', alt='', style='width: 5.7px')
               .col
-                h3.mb-0 I. Algoritmos de agrupamiento (clustering)
+                h3.mb-0 I. Algoritmos de agrupamiento (#[em clustering])
 
         p(data-aos="fade-left") Estos algoritmos tienen presente los siguientes tipos:
 
@@ -216,15 +216,15 @@
             .row.justify-content-center.p-3.h-100(style="background-color:#D6CDD9; border-radius:20px")
               figure
                 img.mb-2(src="@/assets/curso/temas/tema3/icono-09.svg", alt="", style="width: 60px")
-              p.mb-0 #[b #[em K-Means]]
-              p.mb-0 Este es un algoritmo iterativo que organiza los datos en un número predefinido 'k' de #[em clústeres], asignando cada punto de datos al #[em clúster] cuyo centroide (media) se encuentra más próximo. 
+              p.mb-0 #[b K-Means]
+              p.mb-0 Este es un algoritmo iterativo que organiza los datos en un número predefinido 'k' de clústeres, asignando cada punto de datos al clúster cuyo centroide (media) se encuentra más próximo. 
 
           .col-lg-6.px-4.mb-3(data-aos="fade-left")
             .row.justify-content-center.p-3.h-100(style="background-color:#D6CDD9; border-radius:20px")
               figure
                 img.mb-2(src="@/assets/curso/temas/tema3/icono-10.svg", alt="", style="width: 60px")
               p.mb-0 #[b DBSCAN]
-              p.mb-0 Este método, basado en la densidad, es capaz de identificar #[em clústeres] de formas arbitrarias y detectar el ruido punto de datos al #[em clúster] cuyo centroide (media) se encuentra más próximo. 
+              p.mb-0 Este método, basado en la densidad, es capaz de identificar clústeres de formas arbitrarias y detectar el ruido punto de datos al clúster cuyo centroide (media) se encuentra más próximo. 
 
       .col-lg-4.d-none.d-lg-block
         figure
@@ -316,7 +316,7 @@
           img(src='@/assets/curso/temas/tema3/img-09.png')
 
       .col-lg-8(data-aos="fade-right")
-        p Con una amplia variedad de algoritmos disponibles, la elección del más adecuado para un problema específico constituye una de las decisiones más críticas. No existe un algoritmo "mejor" de manera universal, un principio formalizado en el teorema #[em "No Free Lunch"] (Wolpert, 1996), que establece que ningún algoritmo puede superar a todos los demás en todos los problemas posibles. La elección implica un compromiso entre varios factores. Por ejemplo, la naturaleza del problema es el primer filtro a considerar. ¿Se trata de un problema de regresión, clasificación o agrupamiento? Esto limita significativamente las opciones disponibles. 
+        p Con una amplia variedad de algoritmos disponibles, la elección del más adecuado para un problema específico constituye una de las decisiones más críticas. No existe un algoritmo "mejor" de manera universal, un principio formalizado en el teorema "No Free Lunch" (Wolpert, 1996), que establece que ningún algoritmo puede superar a todos los demás en todos los problemas posibles. La elección implica un compromiso entre varios factores. Por ejemplo, la naturaleza del problema es el primer filtro a considerar. ¿Se trata de un problema de regresión, clasificación o agrupamiento? Esto limita significativamente las opciones disponibles. 
         .p-3.mt-4(style="background-color:#FFEBF1; border-radius:15px")
           .row
             .col-auto.d-none.d-md-block(style="place-self:center;")
