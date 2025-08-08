@@ -178,7 +178,7 @@
                   .col-lg-5.col-sm-4.col-6
                     img(src='@/assets/curso/temas/tema3/icono-07.svg' alt='AvatarTop')
                 h4.text-center Árboles de decisión y #[em Random Forest]
-                p Los árboles de decisión aprenden una serie de reglas de "si... entonces..." para dividir los datos. Random Forest es un método de #[em ensamble] que construye múltiples árboles de decisión y combina sus predicciones para obtener un resultado más robusto y preciso..
+                p Los árboles de decisión aprenden una serie de reglas de "si... entonces..." para dividir los datos. Random Forest es un método de ensamble que construye múltiples árboles de decisión y combina sus predicciones para obtener un resultado más robusto y preciso..
 
               .tarjeta.tarjeta--BG03.p-4
                 .row.justify-content-center.mb-3
